@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.title{
+  font-size: 8em;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  color: #000060;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #6699ff;
+  margin-top:3px; margin-bottom: 0;
+  background: url("../image/headimage.jpg");
+}
+
+body{
+  font-size: 20px;
+  color: #000066;
+  background: url("../image/background.png");
+}
+
+
+.line{
+  margin-bottom: 0;
+  font-size: 22px;
+}
+
+.normal{
+  margin-bottom: 8px;
+}
+.interested{
+  padding-left:0.5px;
+  text-indent:-0.5px;
+}
+
+.top{
+  background-image: url("../image/top-bottom.jpg");
+
+}
+
+.bottom{
+  background-image: url("../image/top-bottom.jpg");
+}
+
+.index li{
+  display: inline;
+  list-style-type: none;
+  padding: 0 5px;
+}
+
+.index{
+  background-color: #d3d3d3;;
+  height:32px;
+  margin-top: 0;
+  border-top: solid 0.5px black;
+  border-bottom: solid 0.8px black;
+  text-align: center;
+}
+
+.picture{
+  border: 1px solid #ccc;
+  padding: 8px; margin-top: 4px:
+}
+
+.float-clear{
+  overflow: hidden;
+}
+
+.float-box{
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  vertical-align:middle;
+}
+.go{
+  padding: 6px 0;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
